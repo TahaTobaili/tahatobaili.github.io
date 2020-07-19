@@ -3,10 +3,22 @@
 
 @import "jekyll-theme-slate";
 
-.content img{
+a:hover {
+    cursor: pointer
+}
+
+.content div{
     float: left
 }
 
-h1 {
-    float: left
+.profile{
+    width: 200px;
+    height: 200px;
+}
+
+.title{
+    width:500px;
+    height: auto;
+    display: block;
+    margin: 0 0 0 5px
 }
