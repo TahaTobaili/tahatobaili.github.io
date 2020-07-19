@@ -1,2 +1,4 @@
 name: Taha Tobaili
 markdown: kramdown
+
+theme: jekyll-theme-slate
