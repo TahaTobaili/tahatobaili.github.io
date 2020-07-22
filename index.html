@@ -2,21 +2,80 @@
 layout: default
 title: Taha Tobaili
 ---
+
 <div class="header">
-	<div class="profile">
-	<img src="assets/images/profile.jpg" alt="Taha Tobaili" style="width: 200px; height: 200px">
+	<div class="profile-pic">
+	<img src="assets/images/profile-pic.jpg" alt="Taha Tobaili">
 	</div>
 	
-	<div class="title">
+	<div class="title" id="intro">
 	<h1>Taha Tobaili</h1>
-	<p>PhD candidate in Natural Language Processing </p>
-	<p></p><a ref="http://kmi.open.ac.uk/" target="_blank">Knowledge Media Institute,</a> UK</p>
-	<p>London</p>
+	<p>PhD candidate in Natural Language Processing <br>
+	<a href="http://kmi.open.ac.uk/" target="_blank">Knowledge Media Institute</a> <br>
+	London</p>
+	<div class="clear10"></div>
+	<a href="mailto:taha.tobaili@open.ac.uk" class="email">taha.tobaili@open.ac.uk</a></p>
 	</div>
-	
-	<div class="clear"></div>
-	<div class="content">
-		<h3>Projects</h3>
-		<p>lorem ipsum</p>
+
+	<div class="social">
+		<a href="https://www.linkedin.com/in/tahatobaili/" target="_blank" class="fa fa-linkedin"></a>
+		<a href="https://twitter.com/TahaTobaili" target="_blank" class="fa fa-twitter"></a>
+		<a href="https://www.facebook.com/taha.tobaili" target="_blank" class="fa fa-facebook"></a>
 	</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="content">
+	<div class="item" id="research">
+		<h2>Sentiment Analysis for Low-Resourced Languages on Social Media</h2>
+		<span style="font-style: italic">PhD Thesis</span>
+		<p>
+		In 2016 I crossed the Mediterranean from the Middle East to spend four years in the UK and one
+		in Germany researching and analysing the complex multilingual social media text. Lebanon, my home country, is one of the very few in the
+		entire region where people constantly switch among English or French as they speak their dialectal Arabic, a dialect that is heavily
+		influenced by French and Turkish. The modern generation started to reflect their natural multilingualism in social text without
+		the need to switch between scripts, by Latinising the dialectal Arabic. <br><br>
+		
+		As it is extremely low-resourced and overlooked in the literature of Natural Language Processing (NLP), Latinised Arabic or Arabizi,
+		made the perfect case for my PhD study. Let alone being low in NLP resources and code-switched with English and French, it is rich in morphology,
+		and distinctively lacks a standard orthography. It is a genuine linguistic mess that defies the fundamental techniques of sentiment analysis, the
+		task of classifying subjective text as positive, negative, or neutral. <br><br>
+		
+		With no availble NLP tools to utilise for Arabizi, I addressed this cocktail of challenges the hard way, ingesting, preprocessing, and creating
+		various datasets for sentiment analysis. I applied machine learning for language identification, then used deep learning to populate morphologically
+		and orthographically rich sentiment lexicons for unsupervised sentiment classification of social media data. <br><br>
+		
+		Read more about the challenges and the approach <a href="https://towardsdatascience.com/sentiment-analysis-for-low-resourced-languages-on-social-media-128bf01f2547"
+		target="_blank">here</a>, published in Towards Data Science.<br>
+		Visit the <a href="https://project-rbz.kmi.open.ac.uk/" target="_blank">project page</a> for the updates and published resources.
+		</p>
+		
+	</div>
+	<div class="item" id="experience">
+		<h2>Industry Experience</h2>
+		<div class="clear10"></div>
+		<span><a href="https://adarga.ai/" target="_blank">Adarga AI</a>, London </span>
+		<p>Recently I worked as an NLP Engineer to design the social media analysis pipeline from research to production. I developed a large-scale data
+		ingestion library that retrieves Twitter data based on specific metrics such as date, location, and or topics of interest. 
+		I focused my research on retrieving information from the social network structure such as community detection and influencer identification.
+		</p>
+		<div class="clear30"></div>
+		<span><a href="https://www.ibm.com/de-de/about" target="_blank">IBM Watson</a>, Böblingen </span>
+		<p>Previously I did an internship at IBM Watson Analytics for Social Media in Germany. One of Watson’s main strengths is mining and analysing
+		large datasets from the internet in different languages, I was responsible for the NLP of the Arabic language. I developed a deep morphological processor
+		that extracts gender, number, case, tense, and the base forms from richly inflected words. 
+		</p>
+		
+	</div>
+	<div class="item" id="about">
+		<h2>More About Me</h2>
+		<p>I am an optimistic human being, inquisitve by nature, and constantly challenging the mainstream. I tend to find my self learning something new, especially languages
+		as it compliments my sociable character. Very fond of travel and adventure, I have been to many places and got lost in most of them. My energy is highly driven by sports, I have
+		trained and competed professionaly in Swimming, Table Tennis, Chess, and Brasilian Jiu Jitsu but now trying to balance it with education. I so prefer to be
+		on a bike or skis somewhere than on a computer!
+		</p>
+		
+	</div>
+</div>
 </div>
