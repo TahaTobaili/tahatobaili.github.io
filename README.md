@@ -4,4 +4,4 @@ I am a PhD candidate in the [Knowledge Media Institute](http://kmi.open.ac.uk/) 
 
 Project page: https://tahatobaili.github.io/project-rbz/
 
-My personal page: https://tahatobaili.github.io/
+Homepage: https://tahatobaili.github.io/
