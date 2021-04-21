@@ -86,8 +86,8 @@ h2 {
 }
 
 .profile-pic{
-    width: 260px;
-    height: 330px;
+    width: 550px;
+    height: 367px;
     float: left;
     display: inline-block
 }
@@ -97,18 +97,28 @@ h2 {
     border: none;
     -webkit-box-shadow: 0 0 20px #212121;
     z-index: 10;
+    margin: 10px 0 0 0!important;
+}
+
+.profile-pic span{
+    width: 155px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    font-style:italic;
 }
 
 .title{
-    width:500px;
+    width:340px;
     height: auto;
     float: left;
-    margin: 30px 0 0 30px;
+    margin: 50px 0 0 30px;
     font-size: 22px!important;
 }
 
 .title p{
-    line-height: 27px; 
+    line-height: 27px;
+    margin-left: 5px;
 }
 
 a.email {
@@ -125,9 +135,9 @@ a.email:hover{
 }
 
 .social {
-    width:300px;
+    width:158px;
     display: inline-block;
-    margin: 10px 0 0 30px;
+    margin: 10px 0 0 80px;
 }
 
 .social .fa {
@@ -160,7 +170,7 @@ a.email:hover{
 .content{
     width: auto;
     display: block;
-    padding: 25px 0 0 0;
+    padding: 50px 0 25px 0;
 }
 
 .item{
