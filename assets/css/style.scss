@@ -26,6 +26,10 @@ h1 {
 }
 
 h2 {
+	font-size:42px;
+}
+
+h3 {
     font-size:31px;
 }
 
@@ -183,6 +187,11 @@ a.email:hover{
     height:auto;
     display: block;
     margin: 0 0 40px 0;
+}
+
+.welcome{
+	width: 535px;
+	margin:0 auto 10px auto;
 }
 
 .content .item span{
