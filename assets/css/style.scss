@@ -39,6 +39,12 @@ h2 {
     height: 10px
 }
 
+.clear20{
+    clear: both;
+    height: 20px
+}
+
+
 .clear30{
     clear: both;
     height: 30px
@@ -86,7 +92,7 @@ h2 {
 }
 
 .profile-pic{
-    width: 550px;
+    width: 367px;
     height: 367px;
     float: left;
     display: inline-block
@@ -109,35 +115,34 @@ h2 {
 }
 
 .title{
-    width:340px;
+    width:400px;
     height: auto;
     float: left;
-    margin: 50px 0 0 30px;
+    margin: 50px 0 0 35px;
     font-size: 22px!important;
 }
 
 .title p{
-    line-height: 27px;
+    line-height: 35px!importantx;
     margin-left: 5px;
 }
 
 a.email {
-    width:50px;
-    height:20px;
-    background: url("../images/email-icon.png") 0 0 no-repeat;
-    background-size: 30px 30px;
-    padding: 0 0 0 37px;
+    background: url("../images/email-icon-2.png") 0 0 no-repeat;
+    background-size: 50px 50px;
+    padding: 11px 10px 9px 45px!important;
+	display:inline;
 }
 
 a.email:hover{
-    background: url("../images/email-icon-transparent.png") 0 0 no-repeat;
-    background-size: 30px 30px;
+    background: url("../images/email-icon-2-transparent.png") 0 0 no-repeat;
+    background-size: 50px 50px;
 }
 
 .social {
-    width:158px;
+    width:400px;
     display: inline-block;
-    margin: 10px 0 0 80px;
+    margin: 15px 0 0 40px;
 }
 
 .social .fa {
@@ -184,6 +189,7 @@ a.email:hover{
     font-size: 20px;
     display:block;
     margin:-5px 0 0 0;
+	padding-top:10px;
 }
 
 .content .item p{
